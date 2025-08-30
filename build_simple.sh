@@ -5,7 +5,7 @@ set -o errexit
 pip install -r requirements.txt
 
 # Set Django settings to production
-export DJANGO_SETTINGS_MODULE=todo_list.production
+export DJANGO_SETTINGS_MODULE=todo_list.production_simple
 
 # Create staticfiles directory if it doesn't exist
 mkdir -p staticfiles
