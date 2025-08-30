@@ -25,7 +25,7 @@ git push -u origin main
 ### 3. Configure the Web Service
 - **Name**: `todo-list-app` (or any name you prefer)
 - **Environment**: `Python 3`
-- **Build Command**: `./build.sh`
+- **Build Command**: `./build_simple.sh` (use this if build.sh fails)
 - **Start Command**: `gunicorn todo_list.wsgi:application`
 - **Plan**: `Free` (for testing)
 
